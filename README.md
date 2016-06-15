@@ -13,4 +13,5 @@ npm install –g karma phantomjs-prebuilt jasmine-core karma-coverage
 git clone https://github.com/jessiepuls/javascript-tdd.git
 cd javascript-tdd
 npm install
+karma start
 ```
