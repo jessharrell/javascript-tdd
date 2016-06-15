@@ -1,6 +1,6 @@
 # Test Driving Javascript
 
-Checkout the [Slides](https://docs.google.com/presentation/d/1PYLS6W1W_einJ4fimMz-0ikHny_ntu4txxt6BG6YRwU/edit?usp=sharing)
+Checkout the [Slides](https://docs.google.com/presentation/d/1PYLS6W1W_einJ4fimMz-0ikHny_ntu4txxt6BG6YRwU/edit?usp=sharing/edit?usp=sharing)
 
 ## Project Setup
 
