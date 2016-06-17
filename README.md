@@ -10,7 +10,7 @@ or brew install homebrew/versions/node4-lts
 Run the following commands
 
 ```
-npm install karma phantomjs-prebuilt jasmine-core karma-coverage -g
+npm install karma phantomjs jasmine-core karma-coverage -g
 git clone https://github.com/jessiepuls/javascript-tdd.git
 cd javascript-tdd
 npm install
