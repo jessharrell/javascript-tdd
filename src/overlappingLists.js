@@ -9,7 +9,11 @@
 // What if you don’t pass in two arguments?
 // What if they’re not arrays?
 var isOverlapping = function(firstList, secondList) {
-    if(firstList == undefined || secondList == undefined) {
+    var isValid = function(arr) {
+        return arr != undefined;
+    };
+
+    if(!isValid(firstList) || !isValid(secondList)) {
         throw new Error('Invalid Arguments');
     }
 
