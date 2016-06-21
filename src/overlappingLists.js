@@ -14,4 +14,7 @@ var isOverlapping = function(firstList, secondList) {
         if(secondList.indexOf(item) >= 0) {
             return true;
         }
-    }};
+    }
+
+    return false;
+};
