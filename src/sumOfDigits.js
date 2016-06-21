@@ -11,5 +11,10 @@
 // How would you like to handle non-numberic parameters being passed in?
 // How about no parameters?
 var sumOfDigits = function(digitsToSum) {
-  return digitsToSum;
+    if(digitsToSum < 10) {
+        return digitsToSum;
+    }
+
+    var remainingDigits = Math.floor(digitsToSum / 10);
+    return digitsToSum % 10 + sumOfDigits(remainingDigits);
 };
