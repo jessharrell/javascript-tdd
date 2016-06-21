@@ -10,4 +10,8 @@ describe('sum of digits tests', function () {
     it('should throw an exception if not passed a number', function () {
         expect(function(){ sumOfDigits("not a number"); }).toThrow(new Error('Invalid Arguments'));
     });
+
+    it('should throw an exception if not passed any parameter', function () {
+        expect(function(){ sumOfDigits(); }).toThrow(new Error('Invalid Arguments'));
+    });
 });
