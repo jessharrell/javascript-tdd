@@ -6,4 +6,8 @@ describe('overlapping lists tests', function() {
     it("['a','b','c'] does not overlap ['d','e','f']", function() {
         expect(isOverlapping(['a','b','c'], ['d','e','f'])).toBe(false);
     });
+
+    it('should throw an exception if no parameters are passed in', function () {
+        expect(function(){ isOverlapping(); }).toThrow(new Error('Invalid Arguments'));
+    });
 });
