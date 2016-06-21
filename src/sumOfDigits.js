@@ -11,6 +11,10 @@
 // How would you like to handle non-numberic parameters being passed in?
 // How about no parameters?
 var sumOfDigits = function(digitsToSum) {
+    if(isNaN(digitsToSum)) {
+        throw new Error('Invalid Arguments');
+    }
+
     if(digitsToSum < 10) {
         return digitsToSum;
     }
