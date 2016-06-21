@@ -10,3 +10,6 @@
 //
 // How would you like to handle non-numberic parameters being passed in?
 // How about no parameters?
+var sumOfDigits = function(digitsToSum) {
+  return digitsToSum;
+};
