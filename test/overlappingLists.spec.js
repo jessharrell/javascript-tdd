@@ -10,4 +10,8 @@ describe('overlapping lists tests', function() {
     it('should throw an exception if no parameters are passed in', function () {
         expect(function(){ isOverlapping(); }).toThrow(new Error('Invalid Arguments'));
     });
+
+    it('should throw an exception if only one parameter is passed', function () {
+        expect(function(){ isOverlapping([]); }).toThrow(new Error('Invalid Arguments'));
+    });
 });
