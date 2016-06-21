@@ -10,7 +10,7 @@
 // What if they’re not arrays?
 var isOverlapping = function(firstList, secondList) {
     var isValid = function(arr) {
-        return arr != undefined;
+        return Array.isArray(arr);
     };
 
     if(!isValid(firstList) || !isValid(secondList)) {

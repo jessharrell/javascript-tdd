@@ -14,4 +14,12 @@ describe('overlapping lists tests', function() {
     it('should throw an exception if only one parameter is passed', function () {
         expect(function(){ isOverlapping([]); }).toThrow(new Error('Invalid Arguments'));
     });
+
+    it('should throw an exception if first parameter is not an array', function () {
+        expect(function(){ isOverlapping("not an array", []); }).toThrow(new Error('Invalid Arguments'));
+    });
+
+    it('should throw an exception if second parameter is not an array', function () {
+        expect(function(){ isOverlapping([], "not an array"); }).toThrow(new Error('Invalid Arguments'));
+    });
 });
