@@ -19,6 +19,7 @@ var sumOfDigits = function(digitsToSum) {
         return digitsToSum;
     }
 
+    var currentDigit = digitsToSum % 10;
     var remainingDigits = Math.floor(digitsToSum / 10);
-    return digitsToSum % 10 + sumOfDigits(remainingDigits);
+    return currentDigit + sumOfDigits(remainingDigits);
 };
